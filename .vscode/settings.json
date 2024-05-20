@@ -61,5 +61,8 @@
     "sml": "cd $dir && sml $fileName",
     "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt.exe && $dir$fileNameWithoutExt.exe",
     "cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt.exe && $dir$fileNameWithoutExt.exe"
+  },
+  "files.associations": {
+    "new": "cpp"
   }
 }
