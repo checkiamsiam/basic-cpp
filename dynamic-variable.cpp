@@ -2,6 +2,7 @@
 using namespace std;
 int *fun()
 {
+    
     int *a = new int[5]; // dynamic memory won't be deleted after function call
     for (int i = 0; i < 5; i++)
     {
