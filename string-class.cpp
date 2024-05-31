@@ -11,6 +11,10 @@ int main()
     name.append(" Kumar"); // appends the string
     name = "Siam";
 
+    string newName = name + " Kumar"; // concatenation
+
+    cout << newName << endl;
+
     cout << name << len << endl;
     return 0;
 }
