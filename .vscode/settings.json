@@ -63,6 +63,7 @@
     "cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt.exe && $dir$fileNameWithoutExt.exe"
   },
   "files.associations": {
-    "new": "cpp"
+    "new": "cpp",
+    "iosfwd": "cpp"
   }
 }

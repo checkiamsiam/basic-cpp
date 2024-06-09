@@ -11,9 +11,11 @@ int main()
     }
     // sort(a, a + n); // ascending
     sort(a, a + n, greater<int>()); // descending
-    for (int i = 0; i < n; i++)
+   
+   // shorthand loop for printing array or array of something
+    for (int i: a)
     {
-        cout << a[i] << " ";
+        cout << i << " ";
     }
     return 0;
 }
